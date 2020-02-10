@@ -21,7 +21,7 @@
 				</div>
 			</div>
 			<div class="todo-list">
-				<h3>To Do</h3>
+				<h3>Done</h3>
 				<div>
 					<label class="todo-item" v-for="item in done" :for="item.id" :key="item.id" @click="todoClicked(item)">
 						<el-checkbox :id="item.id" :value="item.done"/>
@@ -181,7 +181,7 @@
 	}
 
 	.filter-input {
-		width: 170px !important;
+		width: 150px !important;
 	}
 
 	.todo-list {
