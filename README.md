@@ -1,5 +1,7 @@
 # todoapp-vue-client
 
+[Live Demo](https://gsoec.github.io/todoapp-vue-client/)
+
 ## Project setup
 ```
 npm install
